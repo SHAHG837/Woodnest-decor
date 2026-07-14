@@ -1,0 +1,6 @@
+{
+  "name": "WoodNest Decor",
+  "description": "Premium handcrafted wooden and MDF home decor with elegant animations, dynamic 3D-like customized order configurator, AI chat assistant, and full e-commerce cart experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
