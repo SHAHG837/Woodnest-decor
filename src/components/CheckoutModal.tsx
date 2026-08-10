@@ -339,6 +339,10 @@ export default function CheckoutModal({
                 </>
               )}
             </button>
+
+            <p className="text-[10px] text-wood-charcoal/60 text-center font-sans">
+              Need assistance with your order? Contact us at <a href="mailto:syedmuhammadamir837@gmail.com" className="text-wood-primary font-semibold hover:underline">syedmuhammadamir837@gmail.com</a> or WhatsApp <a href="https://wa.me/923262259614" target="_blank" rel="noopener noreferrer" className="text-wood-primary font-semibold hover:underline">+92 326 2259614</a>
+            </p>
           </div>
 
         </form>

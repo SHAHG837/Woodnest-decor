@@ -51,6 +51,10 @@ export default function Footer({ onNavigate }: FooterProps) {
             <p className="font-sans text-xs text-gray-400 font-light leading-relaxed">
               Premium handcrafted wooden and MDF home décor designed to add absolute warmth, luxury aesthetics, and functionality to your modern home space.
             </p>
+            <div className="space-y-1 text-xs text-gray-300 font-light">
+              <p className="flex items-center gap-1.5"><span className="text-wood-gold font-semibold">Email:</span> <a href="mailto:syedmuhammadamir837@gmail.com" className="hover:text-wood-gold transition-colors">syedmuhammadamir837@gmail.com</a></p>
+              <p className="flex items-center gap-1.5"><span className="text-wood-gold font-semibold">Phone/WA:</span> <a href="https://wa.me/923262259614" target="_blank" rel="noopener noreferrer" className="hover:text-wood-gold transition-colors">+92 326 2259614</a></p>
+            </div>
             <div className="flex space-x-3 text-gray-400">
               <span className="text-xs">Est. 2021 • Handcrafted Quality</span>
             </div>
@@ -127,11 +131,11 @@ export default function Footer({ onNavigate }: FooterProps) {
 
       {/* Floating WhatsApp Quick Launch Shortcut */}
       <a
-        href="https://wa.me/923000000000?text=Hello%20WoodNest%20Decor!%20I%20am%20interested%20in%20creating%20a%20customized%20MDF%20plaque..."
+        href="https://wa.me/923262259614?text=Hello%20WoodNest%20Decor!%20I%20am%20interested%20in%20creating%20a%20customized%20MDF%20plaque..."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-24 right-6 z-40 p-4 rounded-full bg-green-600 hover:bg-green-500 text-white shadow-2xl hover:scale-110 transition-transform flex items-center justify-center border border-green-400/20 cursor-pointer"
-        title="Chat on WhatsApp"
+        title="Chat on WhatsApp (+92 326 2259614)"
       >
         <MessageCircle className="w-6 h-6 fill-current" />
       </a>

@@ -92,10 +92,10 @@ export default function Contact() {
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="font-serif text-sm font-semibold text-wood-dark">Direct Lines</h4>
+                    <h4 className="font-serif text-sm font-semibold text-wood-dark">Mobile & WhatsApp Hotline</h4>
                     <p className="font-sans text-xs text-wood-charcoal/70 mt-0.5 leading-relaxed">
-                      UK Main office: +44 20 7946 0192 <br />
-                      Studio Hotline: +92 300 1234567
+                      Customer Service & Orders: <a href="tel:+923262259614" className="font-semibold text-wood-primary hover:underline">+92 326 2259614</a> <br />
+                      WhatsApp Helpline: <a href="https://wa.me/923262259614" target="_blank" rel="noopener noreferrer" className="font-semibold text-wood-primary hover:underline">+92 326 2259614</a>
                     </p>
                   </div>
                 </div>
@@ -106,10 +106,9 @@ export default function Contact() {
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="font-serif text-sm font-semibold text-wood-dark">Electronic Mail</h4>
+                    <h4 className="font-serif text-sm font-semibold text-wood-dark">Official Email Support</h4>
                     <p className="font-sans text-xs text-wood-charcoal/70 mt-0.5 leading-relaxed">
-                      Support: info@woodnestdecor.com <br />
-                      Bespoke Orders: custom@woodnestdecor.com
+                      FAQ & Order Queries: <a href="mailto:syedmuhammadamir837@gmail.com" className="font-semibold text-wood-primary hover:underline">syedmuhammadamir837@gmail.com</a>
                     </p>
                   </div>
                 </div>
@@ -121,18 +120,18 @@ export default function Contact() {
             <div className="p-5 rounded-2xl bg-gradient-to-tr from-wood-dark to-wood-primary text-white space-y-3.5 border border-wood-gold/20 shadow-md">
               <div className="flex items-center space-x-2.5">
                 <MessageSquare className="w-5 h-5 text-wood-gold" />
-                <h4 className="font-serif text-sm font-bold text-white">Live Carpentry Hotline</h4>
+                <h4 className="font-serif text-sm font-bold text-white">Live WhatsApp Customer Support</h4>
               </div>
               <p className="font-sans text-[11px] text-gray-200">
-                Want immediate price quotes or font approvals? Chat with our lead designer live on WhatsApp.
+                Need instant assistance with orders, custom MDF design proofs, or general inquiries? Chat live on WhatsApp!
               </p>
               <a
-                href="https://wa.me/923000000000"
+                href="https://wa.me/923262259614?text=Hello%20WoodNest%20Decor!%20I%20have%20a%20query%20regarding..."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center space-x-1.5 px-4 py-2 rounded-xl bg-wood-gold text-wood-dark text-[10px] font-display font-extrabold uppercase tracking-wider hover:bg-yellow-400 transition-colors"
               >
-                Launch WhatsApp Chat
+                Launch WhatsApp Chat (+92 326 2259614)
               </a>
             </div>
           </div>

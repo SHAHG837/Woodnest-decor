@@ -12,6 +12,10 @@ export default function FAQ() {
 
   const faqs: FAQItem[] = [
     {
+      q: "How can I contact customer support or place an order query?",
+      a: "You can reach our dedicated customer care team directly via Email at syedmuhammadamir837@gmail.com or via Mobile & WhatsApp at +92 326 2259614. We respond promptly to order trackings, customization requests, and product queries!"
+    },
+    {
       q: "What is premium MDF and why do you use it?",
       a: "Medium-Density Fiberboard (MDF) is an engineered wood product made by breaking down hardwood or softwood residuals into wood fibers. We source premium, water-resistant, ultra-high-density boards which do not warp, shrink, or crack over time unlike standard low-grade wood. It allows our precision laser cutters to create ultra-detailed, clean script engravings."
     },
