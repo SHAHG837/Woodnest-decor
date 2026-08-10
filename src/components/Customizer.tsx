@@ -18,10 +18,10 @@ export default function Customizer({ onAddToCart }: CustomizerProps) {
 
   // Available options
   const designs = [
-    { name: "Key Hanging Plaque", basePrice: 44.99, desc: "Includes 5 polished solid brass hanging hooks" },
-    { name: "Grand Name Plaque", basePrice: 49.99, desc: "Double-layered laser cut border details" },
-    { name: "Sacred Islamic Plaque", basePrice: 59.99, desc: "Intricate laser-cut patterns with acrylic details" },
-    { name: "Family Circular Ring", basePrice: 39.99, desc: "Double circle portrait wreath frame design" }
+    { name: "Key Hanging Plaque", basePrice: 2999, desc: "Includes 5 polished solid brass hanging hooks" },
+    { name: "Grand Name Plaque", basePrice: 3499, desc: "Double-layered laser cut border details" },
+    { name: "Sacred Islamic Plaque", basePrice: 4299, desc: "Intricate laser-cut patterns with acrylic details" },
+    { name: "Family Circular Ring", basePrice: 2699, desc: "Double circle portrait wreath frame design" }
   ];
 
   const colors = [
@@ -257,7 +257,7 @@ export default function Customizer({ onAddToCart }: CustomizerProps) {
                     Bespoke Handcrafted Price
                   </span>
                   <span className="font-serif text-3xl font-bold text-wood-dark">
-                    ${finalPrice}
+                    Rs. {finalPrice.toLocaleString()}
                   </span>
                 </div>
                 <div className="text-right">

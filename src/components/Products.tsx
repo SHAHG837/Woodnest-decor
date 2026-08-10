@@ -404,7 +404,7 @@ export default function Products({ onAddToCart, onAddToWishlist, wishlistIds }: 
                         <div className="flex items-center justify-between pt-4 mt-4 border-t border-wood-primary/10">
                           <div>
                             <span className="block text-[9px] font-display text-wood-charcoal/50 uppercase">Price</span>
-                            <span className="font-serif text-lg font-bold text-wood-dark">${product.price}</span>
+                            <span className="font-serif text-lg font-bold text-wood-dark">Rs. {product.price.toLocaleString()}</span>
                           </div>
 
                           <button
@@ -476,7 +476,7 @@ export default function Products({ onAddToCart, onAddToWishlist, wishlistIds }: 
 
                   <div className="flex items-center space-x-2 mt-2">
                     <span className="font-serif text-2xl font-bold text-wood-primary">
-                      ${selectedProduct.price}
+                      Rs. {selectedProduct.price.toLocaleString()}
                     </span>
                     {selectedProduct.customizable && (
                       <span className="bg-wood-gold/15 border border-wood-gold/30 text-wood-gold text-[9px] font-display font-bold uppercase px-2 py-0.5 rounded">

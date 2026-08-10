@@ -93,8 +93,13 @@ export default function About() {
             </div>
 
             <div className="flex items-center space-x-4 border-t border-wood-cream/20 pt-6 mt-8 relative z-10">
-              <div className="w-12 h-12 rounded-full bg-wood-cream/15 flex items-center justify-center font-serif text-xl font-bold">
-                W
+              <div className="w-12 h-12 rounded-full overflow-hidden border border-wood-gold/50 shadow-md flex-shrink-0">
+                <img 
+                  src="/src/assets/images/woodnest_hd_logo_3d_1786383915475.jpg" 
+                  alt="WoodNest 3D Logo Emblem" 
+                  className="w-full h-full object-cover"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <div>
                 <p className="font-serif text-sm font-bold text-wood-gold">The WoodNest Carpentry League</p>

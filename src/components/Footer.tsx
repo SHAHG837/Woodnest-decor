@@ -33,7 +33,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             <div className="flex items-center cursor-pointer group" onClick={() => onNavigate('home')}>
               <div className="mr-3 w-9 h-9 rounded-lg overflow-hidden flex items-center justify-center border border-wood-gold/30 group-hover:scale-105 transition-transform duration-300">
                 <img 
-                  src="/src/assets/images/woodnest_logo_3d_1784023248615.jpg" 
+                  src="/src/assets/images/woodnest_hd_logo_3d_1786383915475.jpg" 
                   alt="WoodNest 3D Logo" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

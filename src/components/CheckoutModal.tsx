@@ -110,7 +110,7 @@ export default function CheckoutModal({
           <div className="p-4 bg-white rounded-2xl border border-wood-primary/10 text-left text-xs space-y-2 font-sans">
             <p className="text-wood-dark"><strong>Invoice Reference:</strong> <span className="font-mono font-bold">{successOrder.id.substring(0, 15).toUpperCase()}</span></p>
             <p className="text-wood-dark"><strong>Delivery Address:</strong> {successOrder.shippingAddress.addressLine}, {successOrder.shippingAddress.city}</p>
-            <p className="text-wood-dark"><strong>Total Amount:</strong> <span className="font-serif font-bold text-wood-primary">${successOrder.total}</span></p>
+            <p className="text-wood-dark"><strong>Total Amount:</strong> <span className="font-serif font-bold text-wood-primary">Rs. {successOrder.total.toLocaleString()}</span></p>
             <p className="text-wood-dark"><strong>Tracking Number:</strong> <span className="font-mono bg-gray-100 px-2 py-0.5 rounded text-gray-700">{successOrder.trackingNumber}</span></p>
             <p className="text-[10px] text-wood-primary font-display uppercase tracking-wider text-center mt-3 pt-3 border-t border-dashed border-wood-primary/10">
               ✦ Use this tracking ID inside your Dashboard ✦
@@ -257,12 +257,12 @@ export default function CheckoutModal({
               <div className="space-y-2 text-xs font-sans text-wood-charcoal/80">
                 <div className="flex justify-between">
                   <span>Cart Items Subtotal:</span>
-                  <span>${cartTotal}</span>
+                  <span>Rs. {cartTotal.toLocaleString()}</span>
                 </div>
                 {activeDiscount > 0 && (
                   <div className="flex justify-between text-green-600">
                     <span>Discount (15%):</span>
-                    <span>-${discountAmount}</span>
+                    <span>-Rs. {discountAmount.toLocaleString()}</span>
                   </div>
                 )}
                 <div className="flex justify-between">
@@ -272,7 +272,7 @@ export default function CheckoutModal({
                 <div className="h-px bg-wood-primary/10 my-2" />
                 <div className="flex justify-between text-sm text-wood-dark font-bold">
                   <span>Total Amount Due:</span>
-                  <span className="font-serif text-base text-wood-primary">${finalBill}</span>
+                  <span className="font-serif text-base text-wood-primary">Rs. {finalBill.toLocaleString()}</span>
                 </div>
               </div>
 

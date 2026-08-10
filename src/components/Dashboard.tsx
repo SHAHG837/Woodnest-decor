@@ -190,7 +190,7 @@ export default function Dashboard() {
                         )}
                       </div>
                       <div className="text-right">
-                        <span className="font-serif text-sm font-bold text-wood-primary">${item.product.price}</span>
+                        <span className="font-serif text-sm font-bold text-wood-primary">Rs. {item.product.price.toLocaleString()}</span>
                       </div>
                     </div>
                   ))}
@@ -206,7 +206,7 @@ export default function Dashboard() {
 
                   <div className="text-right">
                     <span className="block text-[10px] font-display text-wood-charcoal/50 uppercase">Total Bill Amount</span>
-                    <span className="font-serif text-xl font-bold text-wood-primary">${order.total}</span>
+                    <span className="font-serif text-xl font-bold text-wood-primary">Rs. {order.total.toLocaleString()}</span>
                     {order.trackingNumber && (
                       <span className="block text-[10px] font-mono text-gray-500 mt-1 bg-gray-100 px-2 py-1 rounded">
                         Tracking: {order.trackingNumber}

@@ -95,9 +95,9 @@ export default function Navbar({
             <div className="flex-shrink-0 flex items-center cursor-pointer group" onClick={() => onNavigate('home')}>
               <div className="relative mr-3 w-11 h-11 rounded-xl overflow-hidden shadow-md border border-wood-gold/30 group-hover:scale-105 transition-transform duration-300">
                 <img 
-                  src="/src/assets/images/woodnest_logo_3d_1784023248615.jpg" 
+                  src="/src/assets/images/woodnest_hd_logo_3d_1786383915475.jpg" 
                   alt="WoodNest 3D Logo" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover shadow-inner"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-wood-gold rounded-full flex items-center justify-center border border-wood-cream z-10">

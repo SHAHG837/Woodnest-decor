@@ -179,26 +179,29 @@ export default function Hero({ onShopNow, onExploreCustom }: HeroProps) {
                   />
                 </div>
 
-                {/* Back Face: Premium Walnut Board with Gold Branding */}
+                {/* Back Face: Ultra HD 3D Emblem Logo */}
                 <div
                   style={{ 
                     transform: "rotateY(180deg) translateZ(1px)",
                     backfaceVisibility: "hidden"
                   }}
-                  className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#5A3A22] to-[#2c1e13] border-2 border-wood-gold/40 flex flex-col items-center justify-center p-6 text-center shadow-inner"
+                  className="absolute inset-0 rounded-3xl overflow-hidden border-2 border-wood-gold/50 shadow-2xl bg-black"
                 >
-                  <div className="w-14 h-14 opacity-30 border border-wood-gold rounded-full flex items-center justify-center mb-2">
-                    <span className="font-serif text-2xl text-wood-gold">🌳</span>
+                  <img 
+                    src="/src/assets/images/woodnest_hd_logo_3d_1786383915475.jpg" 
+                    alt="WoodNest 3D HD Logo Emblem" 
+                    className="w-full h-full object-cover"
+                    referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                  <div className="absolute bottom-3 left-3 right-3 text-center">
+                    <span className="font-serif text-sm font-bold text-white tracking-wider block drop-shadow-md">
+                      WoodNest Decor
+                    </span>
+                    <span className="font-sans text-[9px] text-wood-gold tracking-widest uppercase block">
+                      3D Emblem Logo
+                    </span>
                   </div>
-                  <h3 className="font-serif text-xl font-bold text-white tracking-wide">
-                    WoodNest Decor
-                  </h3>
-                  <p className="font-sans text-[10px] text-wood-gold tracking-widest uppercase mt-0.5">
-                    Est. 2021 • Handcrafted Art
-                  </p>
-                  <p className="font-sans text-[10px] text-gray-300 max-w-xs mt-3 leading-relaxed">
-                    Every custom piece is carved from premium high-density MDF and polished with signature hand-rubbed organic finishes.
-                  </p>
                 </div>
               </motion.div>
 

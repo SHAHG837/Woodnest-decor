@@ -324,7 +324,7 @@ export default function App() {
 
                       <div className="space-y-1 pr-6">
                         <h4 className="font-serif text-xs font-bold text-wood-dark line-clamp-1">{item.product.name}</h4>
-                        <p className="font-serif text-xs font-bold text-wood-primary">${item.product.price}</p>
+                        <p className="font-serif text-xs font-bold text-wood-primary">Rs. {item.product.price.toLocaleString()}</p>
                         
                         {/* Custom configuration label */}
                         {item.customConfig && (
@@ -362,7 +362,7 @@ export default function App() {
                 <div className="p-6 bg-white border-t border-wood-primary/10 space-y-4">
                   <div className="flex justify-between items-center text-sm">
                     <span className="font-display font-semibold text-wood-charcoal/70">Subtotal Due:</span>
-                    <span className="font-serif text-lg font-bold text-wood-primary">${getCartTotal()}</span>
+                    <span className="font-serif text-lg font-bold text-wood-primary">Rs. {getCartTotal().toLocaleString()}</span>
                   </div>
                   <p className="font-sans text-[10px] text-gray-500 leading-normal">
                     Free shipping is included! Secure payments are completely simulated for immediate prototyping.
@@ -432,7 +432,7 @@ export default function App() {
                       <div className="space-y-1 pr-6 flex-grow">
                         <h4 className="font-serif text-xs font-bold text-wood-dark line-clamp-1">{product.name}</h4>
                         <p className="text-[10px] text-wood-primary uppercase font-display font-medium">{product.category}</p>
-                        <p className="font-serif text-xs font-bold text-wood-primary">${product.price}</p>
+                        <p className="font-serif text-xs font-bold text-wood-primary">Rs. {product.price.toLocaleString()}</p>
                         
                         <button
                           onClick={() => {
